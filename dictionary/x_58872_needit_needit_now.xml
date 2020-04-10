@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Needit Now" max_length="40" name="x_58872_needit_needit_now" type="collection">
+        <element choice="1" default="False" label="Do you need it now" max_length="40" name="do_you_need_it_now" type="choice">
+            <choice/>
+        </element>
+        <element label="New Reference" max_length="32" name="u_reference_1" reference="incident" type="reference"/>
+    </element>
+</database>
